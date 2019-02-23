@@ -37,13 +37,18 @@ def normalize_data():
                 raw = raw.translate(translator)
                 # Tokenize text
                 tokens = word_tokenize(raw)
+                # Convert all tokens to lowercase
+                tokens = [w.lower() for w in tokens]
                 # Remove stop words
                 stop_words = set(stopwords.words('english'))
-                filtered_sentence = [w for w in tokens if w not in stop_words]
+                filtered_tokens = [w for w in tokens if w not in stop_words]
+
+                # Remove remaining tokens that are not alphabetic
+                filtered_tokens = [word for word in filtered_tokens if word.isalpha()]
 
                 porter = PorterStemmer()
 
-                index = IndexedText(filtered_sentence, porter)
+                index = IndexedText(filtered_tokens, porter)
                 stemmed = index.stem()
 
                 write_normalized_file(filename, stemmed)
