@@ -1,6 +1,6 @@
 import os
 
-from scrapy.utils.project import data_path
+from nltk import PorterStemmer
 
 from inverted_index.db import DictDatabase, DatabaseAbstract
 from inverted_index.index import InvertedIndex
@@ -43,6 +43,8 @@ class SearchEngine:
         if not self.is_indexed:
             raise Exception('You need to index documents first')
 
+        porter = PorterStemmer()
+        query = porter.stem(query)
         result = self._index.lookup_query(query)
         return result
 
