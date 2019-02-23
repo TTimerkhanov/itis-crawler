@@ -1,4 +1,8 @@
+import string
+
+import nltk
 from nltk import word_tokenize
+from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem import LancasterStemmer
 import os
@@ -28,10 +32,18 @@ def normalize_data():
         if not filename.startswith('.'):
             with open(os.path.join(data_path, filename), 'r', encoding='utf-8') as file:
                 raw = file.read()
+                # Remove punctuation
+                translator = str.maketrans('', '', string.punctuation)
+                raw = raw.translate(translator)
+                # Tokenize text
                 tokens = word_tokenize(raw)
+                # Remove stop words
+                stop_words = set(stopwords.words('english'))
+                filtered_sentence = [w for w in tokens if w not in stop_words]
+
                 porter = PorterStemmer()
 
-                index = IndexedText(porter, tokens)
+                index = IndexedText(filtered_sentence, porter)
                 stemmed = index.stem()
 
                 write_normalized_file(filename, stemmed)
@@ -40,7 +52,6 @@ def normalize_data():
 if __name__ == '__main__':
     # Install punktr if needed
     # nltk.download()
+    nltk.download('stopwords')
 
     normalize_data()
-
-
