@@ -18,7 +18,6 @@ class SearchEngine:
         document_ids = {}
         for document in result[term]:
             print(document)
-            # pass
 
     @staticmethod
     def get_all_documents():
@@ -60,12 +59,6 @@ def main():
 
     for term in result.keys():
         search_engine.generate_result(term, result)
-        for document in result[term]:
-            pass
-            # Belgium: { docId: 1, frequency: 1}
-            document = db.get(document.document_id)
-            # print(highlight_term(document.document_id, term, ""))
-        print("-----------------------------")
 
 
 if __name__ == '__main__':
