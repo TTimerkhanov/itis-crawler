@@ -25,15 +25,6 @@ class InvertedIndex:
                 documents = [document.document_id for document in data]
                 output.write(f'{value}: {documents}\n')
 
-    # def get_terms(self, document: Document) -> list:
-    #     CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
-    #
-    #     normalized_data_path = os.path.join(os.path.dirname(CURRENT_PATH),  'normalized_data')
-    #
-    #     with open(os.path.join(normalized_data_path, f'{document.document_id}.txt'), 'r',
-    #               encoding='utf-8') as file:
-    #         return file.readlines()
-
     def index_document(self, document: Document):
         """
         Process a given document, save it to the DB and update the index.
@@ -54,8 +45,6 @@ class InvertedIndex:
             else:
                 update_dict[key] = [appearance]
 
-        # update_dict = {
-        #     key: [appearance] if key not in self.index else self.index[key] + [appearance] }
         self.index.update(update_dict)
         # Add the document into the database
         self.db.add(document)
