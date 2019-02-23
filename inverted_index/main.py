@@ -14,11 +14,11 @@ class SearchEngine:
         self.is_indexed = False
 
     @staticmethod
-    def generate_result( term: str, result: dict):
+    def generate_result(term: str, result: dict):
         document_ids = {}
         for document in result[term]:
-            # print(document)
-            pass
+            print(document)
+            # pass
 
     @staticmethod
     def get_all_documents():
