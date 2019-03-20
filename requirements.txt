@@ -1,3 +1,9 @@
 scrapy
 beautifulsoup4
 nltk
+Django==2.1.7
+neomodel
+django_neomodel
+py2neo
+pymystem3
+sty

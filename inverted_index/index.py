@@ -51,6 +51,7 @@ class InvertedIndex:
         return document
 
     def lookup_query(self, query):
+        # TODO: Add AND
         """
         Returns the dictionary of terms with their correspondent Documents.
         This is a very naive search since it will just split the terms and show

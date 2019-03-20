@@ -39,12 +39,12 @@ def normalize_data():
                 tokens = word_tokenize(raw)
                 # Convert all tokens to lowercase
                 tokens = [w.lower() for w in tokens]
-                # Remove stop words
-                stop_words = set(stopwords.words('english'))
-                filtered_tokens = [w for w in tokens if w not in stop_words]
+                # # Remove stop words
+                # stop_words = set(stopwords.words('english'))
+                # filtered_tokens = [w for w in tokens if w not in stop_words]
 
                 # Remove remaining tokens that are not alphabetic
-                filtered_tokens = [word for word in filtered_tokens if word.isalpha()]
+                filtered_tokens = [word for word in tokens if word.isalpha()]
 
                 porter = PorterStemmer()
 

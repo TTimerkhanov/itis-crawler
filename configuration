@@ -1,0 +1,6 @@
+[NEO4J]
+host = 127.0.0.1
+username = neo4j
+password = Timur258605
+port = 7687
+path = /Users/timurtimerhanov/Library/Application Support/Neo4j Desktop/Application/neo4jDatabases/database-38330a62-81e3-45f7-964d-4ec636d5adee/installation-3.5.2
