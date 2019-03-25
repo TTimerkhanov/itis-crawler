@@ -1,0 +1,160 @@
+doc_id  pagerank
+0     0.167196
+19    0.130802
+20    0.104456
+21    0.094577
+17    0.091283
+18    0.089637
+7     0.086344
+16    0.086344
+33    0.001737
+28    0.001737
+29    0.001737
+30    0.001737
+31    0.001737
+32    0.001737
+34    0.001737
+26    0.001737
+35    0.001737
+36    0.001737
+37    0.001737
+38    0.001737
+39    0.001737
+40    0.001737
+41    0.001737
+42    0.001737
+43    0.001737
+44    0.001737
+27    0.001737
+22    0.001737
+25    0.001737
+9     0.001737
+        ...
+86    0.001737
+87    0.001737
+88    0.001737
+89    0.001737
+90    0.001737
+91    0.001737
+71    0.001737
+70    0.001737
+69    0.001737
+68    0.001737
+49    0.001737
+50    0.001737
+51    0.001737
+52    0.001737
+53    0.001737
+54    0.001737
+55    0.001737
+56    0.001737
+57    0.001737
+58    0.001737
+59    0.001737
+60    0.001737
+61    0.001737
+62    0.001737
+63    0.001737
+64    0.001737
+65    0.001737
+66    0.001737
+67    0.001737
+46    0.001737
+
+doc_id - url mapping
+{
+  "0": "`https://www.lisaeldridge.com/blog/`",
+  "1": "`https://www.lisaeldridge.com/blog/27677/waterproof-mascaras-that-do-the-job/`",
+  "2": "`https://www.lisaeldridge.com/blog/27697/flawlessfriday-long-lasting-liquid-lipsticks/`",
+  "3": "`https://www.lisaeldridge.com/blog/27453/three-natural-mascaras-ive-tried-and-like/`",
+  "4": "`https://www.lisaeldridge.com/blog/27704/vintage-beauty-advice-from-hollywoods-makeup-legends/`",
+  "5": "`https://www.lisaeldridge.com/blog/27647/3-new-lip-obsessions/`",
+  "6": "`https://www.lisaeldridge.com/blog/27670/favourite-drugstore-concealers-updated/`",
+  "7": "`https://www.lisaeldridge.com/blog/2/`",
+  "8": "`https://www.lisaeldridge.com/blog/27590/four-tried-and-tested-hydrators-that-suit-most-skin-types/`",
+  "9": "`https://www.lisaeldridge.com/blog/27664/pink-lipsticks-for-every-skintone/`",
+  "10": "`https://www.lisaeldridge.com/blog/27628/flawlessfriday-no-mask-masks/`",
+  "11": "`https://www.lisaeldridge.com/blog/27632/skincare-comeback-would-you-wash-your-face-with-soap/`",
+  "12": "`https://www.lisaeldridge.com/blog/27701/the-skinny-on-eyeshadow-sticks/`",
+  "13": "`https://www.lisaeldridge.com/blog/27754/im-nuts-for-coconuts/`",
+  "14": "`https://www.lisaeldridge.com/blog/27716/when-sunscreen-meets-makeup-6-tinted-spfs/`",
+  "15": "`https://www.lisaeldridge.com/blog/27765/be-bold-seven-power-pout-lipsticks/`",
+  "16": "`https://www.lisaeldridge.com/blog/8/`",
+  "17": "`https://www.lisaeldridge.com/blog/7/`",
+  "18": "`https://www.lisaeldridge.com/blog/6/`",
+  "19": "`https://www.lisaeldridge.com/blog/5/`",
+  "20": "`https://www.lisaeldridge.com/blog/4/`",
+  "21": "`https://www.lisaeldridge.com/blog/3/`",
+  "22": "`https://www.lisaeldridge.com/blog/27687/the-beauty-pioneers-serge-lutens/`",
+  "23": "`https://www.lisaeldridge.com/blog/27832/topping-up-for-the-new-season/`",
+  "24": "`https://www.lisaeldridge.com/blog/27833/texture-trend-jelly-masks-for-a-hit-of-hydration/`",
+  "25": "`https://www.lisaeldridge.com/blog/27979/the-new-additions-to-my-in-flight-beauty-routine/`",
+  "26": "`https://www.lisaeldridge.com/blog/27870/pamper-your-pout/`",
+  "27": "`https://www.lisaeldridge.com/blog/28053/meet-your-match-5-treatment-cleansers/`",
+  "28": "`https://www.lisaeldridge.com/blog/28070/four-lip-looks-on-gorgeous-kate-bosworth/`",
+  "29": "`https://www.lisaeldridge.com/blog/28101/a-flush-of-blush-for-spring/`",
+  "30": "`https://www.lisaeldridge.com/blog/28151/easy-holiday-lips-neons-and-naturals/`",
+  "31": "`https://www.lisaeldridge.com/blog/28149/inspiration-ultra-modern-festival-makeup-looks/`",
+  "32": "`https://www.lisaeldridge.com/blog/28138/green-water-revolution-the-new-micellars-on-the-block/`",
+  "33": "`https://www.lisaeldridge.com/blog/28277/5-mascaras-tried-and-tested-at-the-houseofeldridge/`",
+  "34": "`https://www.lisaeldridge.com/blog/28180/3-natural-and-organic-masks-im-packing/`",
+  "35": "`https://www.lisaeldridge.com/blog/28330/pollution-products/`",
+  "36": "`https://www.lisaeldridge.com/blog/28421/graphic-holographic-blue-eye-look-with-cris/`",
+  "37": "`https://www.lisaeldridge.com/blog/28431/inspiration-amedeo-modigliani/`",
+  "38": "`https://www.lisaeldridge.com/blog/28432/get-the-look-from-my-holiday-gift-guide-lips-and-eyes-tutorial/`",
+  "39": "`https://www.lisaeldridge.com/blog/28274/my-current-favourite-matte-bronzers/`",
+  "40": "`https://www.lisaeldridge.com/blog/28553/the-next-makeup-stars-competition-winners/`",
+  "41": "`https://www.lisaeldridge.com/blog/28596/bafta-beauty-breakdown-gemma-arterton/`",
+  "42": "`https://www.lisaeldridge.com/blog/28772/exclusive-sneak-peek-of-the-frieda-kahlo-va-making-her-self-up-exhibition-and-my-makeup-look/`",
+  "43": "`https://www.lisaeldridge.com/blog/28779/igtv-beginners-guide-to-achieving-your-best-skin-ever/`",
+  "44": "`https://www.lisaeldridge.com/blog/28512/alexa-chung-beauty-breakdown-from-the-british-fashion-awards/`",
+  "45": "`https://www.lisaeldridge.com/blog/26453/a-few-of-my-festival-beauty-essentials/`",
+  "46": "`https://www.lisaeldridge.com/blog/26376/draw-the-line-graffiti-graphic-looks-for-vogue/`",
+  "47": "`https://www.lisaeldridge.com/blog/28436/iamedeo-modigliani-giveaway-terms-and-conditions/`",
+  "48": "`https://www.lisaeldridge.com/blog/26872/my-japanese-lash-lowdown/`",
+  "49": "`https://www.lisaeldridge.com/blog/26951/new-trend-sculpting-and-contouring-sticks/`",
+  "50": "`https://www.lisaeldridge.com/blog/26447/jet-setting-makeup-staples/`",
+  "51": "`https://www.lisaeldridge.com/blog/25751/you-make-me-blush/`",
+  "52": "`https://www.lisaeldridge.com/blog/25761/cara-delevingnes-make-up/`",
+  "53": "`https://www.lisaeldridge.com/blog/25764/seven-summer-reds/`",
+  "54": "`https://www.lisaeldridge.com/blog/25822/pastures-new/`",
+  "55": "`https://www.lisaeldridge.com/blog/25849/my-zero-make-up-holiday-skincare-essentials/`",
+  "56": "`https://www.lisaeldridge.com/blog/25842/gallery-update-love-magazine-covers/`",
+  "57": "`https://www.lisaeldridge.com/blog/25872/make-up-for-the-boys/`",
+  "58": "`https://www.lisaeldridge.com/blog/25269/keira-knightley-red-carpet/`",
+  "59": "`https://www.lisaeldridge.com/blog/25869/gallery-update-the-lion-king/`",
+  "60": "`https://www.lisaeldridge.com/blog/25885/think-what-goes-with-pink/`",
+  "61": "`https://www.lisaeldridge.com/blog/25934/win-all-the-makeup-featured-in-my-latest-video/`",
+  "62": "`https://www.lisaeldridge.com/blog/23214/lisa-loves-holiday-things/`",
+  "63": "`https://www.lisaeldridge.com/blog/23724/gallery-update-eva-green/`",
+  "64": "`https://www.lisaeldridge.com/blog/23413/gallery-update-lara-stone/`",
+  "65": "`https://www.lisaeldridge.com/blog/24147/gallery-update-edie-campbell-as-pattie-boyd-for-lula/`",
+  "66": "`https://www.lisaeldridge.com/blog/24445/downton-abbeys-jessica-brown-findlay-red-carpet/`",
+  "67": "`https://www.lisaeldridge.com/blog/24649/gallery-update-two-kate-editorials/`",
+  "68": "`https://www.lisaeldridge.com/blog/24330/lisa-loves-photo-tech-meets-anti-aging/`",
+  "69": "`https://www.lisaeldridge.com/blog/24928/super-quick-smokey-eyes/`",
+  "70": "`https://www.lisaeldridge.com/blog/24946/lisa-loves-looking-in-make-up-bags/`",
+  "71": "`https://www.lisaeldridge.com/blog/25140/gallery-update-kate-winslet-vogue/`",
+  "72": "`https://www.lisaeldridge.com/blog/25139/gothic-make-up-collections-story/`",
+  "73": "`https://www.lisaeldridge.com/blog/25263/discover-your-skin-true-match/`",
+  "74": "`https://www.lisaeldridge.com/blog/25265/paper-make-up/`",
+  "75": "`https://www.lisaeldridge.com/blog/25266/harvey-nichols-paper-make-up/`",
+  "76": "`https://www.lisaeldridge.com/blog/25267/my-visit-to-the-berlin-kryolan-make-up-factory/`",
+  "77": "`https://www.lisaeldridge.com/blog/25314/gallery-update-natasha-poly/`",
+  "78": "`https://www.lisaeldridge.com/blog/25315/inspiration-buffalo-girl-talisa-soto/`",
+  "79": "`https://www.lisaeldridge.com/blog/25317/the-temple-of-tilbury-guest-artist/`",
+  "80": "`https://www.lisaeldridge.com/blog/25319/biba-and-beyond/`",
+  "81": "`https://www.lisaeldridge.com/blog/25508/lisa-loves-le-grand-bal/`",
+  "82": "`https://www.lisaeldridge.com/blog/25550/gallery-update-joan-smalls-product-rave/`",
+  "83": "`https://www.lisaeldridge.com/blog/25571/gallery-update-downton-abbeys-michelle-dockery/`",
+  "84": "`https://www.lisaeldridge.com/blog/25583/gallery-update-kylie-minogue/`",
+  "85": "`https://www.lisaeldridge.com/blog/25597/and-the-winners-are/`",
+  "86": "`https://www.lisaeldridge.com/blog/25598/lisa-loves-winter-skin-favourites/`",
+  "87": "`https://www.lisaeldridge.com/blog/25693/gallery-update-3-styles-of-natural/`",
+  "88": "`https://www.lisaeldridge.com/blog/25734/jessica-biel-at-cannes/`",
+  "89": "`https://www.lisaeldridge.com/blog/18118/thanks-everyone/`",
+  "90": "`https://www.lisaeldridge.com/blog/20780/lisa-loves-beauty-deja-vu/`",
+  "91": "`https://www.lisaeldridge.com/blog/8767/summers-here/`",
+  "92": "`https://www.lisaeldridge.com/blog/8966/lips-of-the-rising-sun/`",
+  "93": "`https://www.lisaeldridge.com/blog/9427/nail-colour-alert/`"
+}
